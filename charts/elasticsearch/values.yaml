@@ -125,7 +125,7 @@ persistence:
   enabled: true
   labels:
     # Add default labels for the volumeClaimTemplate of the StatefulSet
-    enabled: false
+    enabled: true
   annotations: {}
 
 extraVolumes:
