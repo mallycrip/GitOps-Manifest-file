@@ -94,7 +94,8 @@ volumeClaimTemplate:
   accessModes: ["ReadWriteOnce"]
   resources:
     requests:
-      storage: 30Gi
+      storage: 8Gi
+  storageClassName: local-storage
 
 rbac:
   create: false
