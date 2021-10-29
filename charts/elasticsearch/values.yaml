@@ -1,4 +1,5 @@
 elasticsearch:
+  minimumMasterNodes: 1
   volumeClaimTemplate:
     accessModes: ["ReadWriteOnce"]
     storageClassName: local-storage
