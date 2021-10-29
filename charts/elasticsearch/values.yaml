@@ -92,7 +92,7 @@ networkHost: "0.0.0.0"
 
 volumeClaimTemplate:
   accessModes: ["ReadWriteOnce"]
-  storageClassName: "local-storage"
+  storageClassName: local-storage
   resources:
     requests:
       storage: 8Gi
@@ -124,8 +124,7 @@ podSecurityPolicy:
 persistence:
   enabled: true
   labels:
-    # Add default labels for the volumeClaimTemplate of the StatefulSet
-    enabled: true
+    enabled: false
   annotations: {}
 
 extraVolumes:
