@@ -1,6 +1,0 @@
-volumeClaimTemplate:
-  accessModes: [ "ReadWriteOnce" ]
-  storageClassName: "local-storage"
-  resources:
-    requests:
-      storage: 8Gi
