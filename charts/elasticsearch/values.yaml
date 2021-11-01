@@ -1,5 +1,5 @@
 elasticsearch:
-  replicas: 2
+  replicas: 1
   minimumMasterNodes: 1
   volumeClaimTemplate:
     accessModes: ["ReadWriteOnce"]
