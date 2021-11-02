@@ -7,6 +7,9 @@ postgresql:
 
   containerSecurityContext:
     runAsUser: 0
+    
+  volumePermissions:
+    enabled: true
 
   persistence:
     enabled: false
