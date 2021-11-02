@@ -1,0 +1,12 @@
+postgresql:
+  postgresqlPostgresPassword: temppassword
+  postgresqlUsername: user
+
+  securityContext:
+    fsGroup: 0
+
+  containerSecurityContext:
+    runAsUser: 0
+
+  persistence:
+    enabled: false
